@@ -1,4 +1,4 @@
-body{
+body {
   font-family: 'Lato';
   color: #333;
 }
@@ -8,19 +8,15 @@ img {
   max-width: 100%;
   height: auto;
   }
-.wrapper{
-  background-color: #f2f2f2;
-  text-align: center;
-  width: 100%;
-}
-.inner{
+
+.inner {
   width: 1100px;
   margin: 0 auto;
 }
 
 /* header css */
 .header{
-  background-color: white;
+  background-color: #fff;
   box-sizing: border-box;
   position: fixed;
   width: 100%;
@@ -39,7 +35,7 @@ img {
 }
 .contact_botton{
   background-color: #74cfae;
-  color: white;
+  color: #fff;
   font-size: 12px;
   padding: 14px 12px;
   text-decoration: none;
@@ -50,8 +46,13 @@ img {
 }
 .main{
   padding-top: 62px;
+  text-align: center;
+  width: 100%;
 }
 /* Theme css */
+.theme{
+  background-color: #f2f2f2;
+}
 .theme-inner{
   color: #74cfae;
   padding: 250px 0px;
@@ -69,40 +70,42 @@ img {
   font-size: 30px;
 }
 
-/* section1 css */
-.section1{
+/* section_cando css */
+.section_cando{
   background-color: #74cfae;
 }
-.section1-inner{
+.section_cando-inner{
   color: #f2f2f2;
   padding-top: 50px;
 }
-.section1_flexbox{
+.section_cando_flexbox{
   align-items: flex-start;
   display: flex;
   justify-content: space-around;
-  width: 100%;
 }
-.section1_img{
+.section_cando_img{
   width: 40%;
 }
-.section1_img img{
+.section_cando_img img{
   height: 295px;
   width: 208px;
 }
-.section1-content{
+.section_cando-content{
   line-height: 1.2;
   width: 60%;
 }
-.section1-title{
+.section_cando-title{
   font-size: 24px;
   margin-bottom: 35px;
 }
-.section1-text{
+.section_cando-text{
   font-size: 20px;
 }
 
 /* article css */
+.article{
+  background-color: #f2f2f2;
+}
 .article-inner{
   padding: 60px 0px 70px 0px;
 }
@@ -113,20 +116,31 @@ img {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin: 40px 0px 10px 0px;
+  justify-content: left;
+  margin: 40px 0px 90px 0px;
 }
+
 .article-image{
   opacity: 0.7;
   transition: .3s;
-  margin: 0px 100px 80px 0px;
-  width: calc(33.3% - 100px);
+  margin: 0px 0 80px 100px;
 }
+
 .article-image:hover{
   opacity: 1.0;
 }
-.article-image:nth-child(3n){
-  margin-right: 0px;
+
+.article-image:first-child{
+  margin-left: 0;
+}
+
+.article-image:nth-child(3n+1){
+  margin-left: 0;
+}
+
+.article-image:nth-child(3n+1):nth-last-child(-n+3),
+.article-image:nth-child(3n+1):nth-last-child(-n+3) ~ .article-image {
+  margin-bottom: 0px;
 }
 .article_box{
   align-items: flex-start;
@@ -155,35 +169,37 @@ img {
 }
 
 /* ourskils */
-.section2{
+.section_skill{
   background-color: #4e4e4e;
 }
-.section2-inner{
+.section_skill-inner{
   color: #f2f2f2;
   padding: 70px 0px 100px 0px;
 }
-.section2-title{
+.section_skill-title{
   font-size: 22px;
   margin-bottom: 40px;
 }
-.section2-images_box{
+.section_skill-images_box{
   align-items: center;
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
-.section2-image{
-  margin-right: 180px;
-  width: calc(25% - 180px);
+.section_skill-image{
+  margin-left: 180px;
 }
-.section2-image:last-child{
-  margin-right: 0px;
+.section_skill-image:first-child{
+  margin-left: 0px;
 }
-.section2-text{
+.section_skill-text{
   font-size: 16px;
   margin-top: 10px;
 }
 
 /* nav css */
+.nav{
+  background-color: #f2f2f2;
+}
 .nav-inner{
   padding: 200px 0px;
 }
@@ -208,7 +224,7 @@ img {
   background-color: #74cfae;
 }
 .footer-inner{
-  padding: 20px 10px 25px 10px;
+  padding: 20px 0 25px 0;
 }
 .footer-text{
   color: #f2f2f2;
@@ -216,7 +232,7 @@ img {
 }
 /* tablet.css */
 @media screen and (max-width: 1199px){
-  .wrapper{
+  .main{
     background-color: #f2f2f2;
     text-align: center;
     width: 100%;
@@ -261,17 +277,17 @@ img {
   }
 
 /* section.css */
-  .section1-inner{
+  .section_cando-inner{
     padding-bottom: 25px;
   }
-  .section1_flexbox{
+  .section_cando_flexbox{
     display: block;
   }
-  .section1_img{
+  .section_cando_img{
     margin: 0 auto;
     margin-bottom: 20px;
   }
-  .section1-content{
+  .section_cando-content{
     margin: 0 auto;
     width: 85%;
   }
@@ -292,10 +308,8 @@ img {
 }
 /* smartphone.css */
 @media screen and (max-width: 767px){
-  .wrapper{
-    background-color: #f2f2f2;
-    text-align: center;
-    width: 100%;
+  .main{
+    padding-top: 72px;
   }
   .inner{
     width: 97%;
@@ -346,7 +360,7 @@ img {
 
 /* nav.css */
   .nav-inner{
-    padding: 50px 0 50px 0;
+    padding: 50px 0;
   }
   .sns_box{
     display: block;
