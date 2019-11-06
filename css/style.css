@@ -1,6 +1,6 @@
 body{
-  font-family: 'Lato', 'Raleway';
-  /* font-family: 'Raleway'; */
+  font-family: 'Lato';
+  font-family: 'Raleway';
   color: #333;
 }
 /* imgタグの自動調整 */
@@ -128,16 +128,16 @@ img {
   margin-right: 0px;
 }
 .article_box{
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   font-size: 0;
-  justify-content: center;
+  justify-content: left;
 }
 .article-text{
   display: inline-block;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.2;
-  margin-right: 90px;
+  margin: 0 90px;
   width: 60%;
 }
 .article-botton{
