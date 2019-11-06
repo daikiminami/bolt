@@ -418,10 +418,17 @@ img {
     padding: 160px 0 130px 0;
   }
 
+  .theme-title{
+    font-size: 80px;
+  }
+
   .br-sp {
     display: block;
   }
 
+  .section_cando_img{
+    width: 100%;
+  }
 /* nav.css */
   .nav-inner{
     padding: 50px 0;
