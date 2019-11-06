@@ -8,6 +8,7 @@ img {
   width: 100%;
   max-width: 100%;
   height: auto;
+  vertical-align: bottom;
   }
 
 .inner {
@@ -54,7 +55,6 @@ img {
 .main{
   padding-top: 62px;
   text-align: center;
-  width: 100%;
 }
 
 /* Theme css */
@@ -424,6 +424,10 @@ img {
 
   .br-sp {
     display: block;
+  }
+
+  .section_cando-content{
+    width: 100%;
   }
 
   .section_cando_img{
