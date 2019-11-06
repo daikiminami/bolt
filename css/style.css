@@ -2,6 +2,7 @@ body {
   font-family: 'Lato';
   color: #333;
 }
+
 /* imgタグの自動調整 */
 img {
   width: 100%;
@@ -67,6 +68,7 @@ img {
 }
 .theme-content{
   color: #c0c0c0;
+  font-family: 'Raleway';
   font-size: 30px;
 }
 
@@ -95,6 +97,7 @@ img {
   width: 60%;
 }
 .section_cando-title{
+  font-family: "Raleway";
   font-size: 24px;
   margin-bottom: 35px;
 }
@@ -110,6 +113,7 @@ img {
   padding: 60px 0px 70px 0px;
 }
 .article-title{
+  font-family: 'Raleway';
   font-size: 24px;
 }
 .article-images_box{
@@ -150,6 +154,7 @@ img {
 }
 .article-text{
   display: inline-block;
+  font-family: 'Raleway';
   font-size: 20px;
   line-height: 1.2;
   margin: 0 90px;
