@@ -1,6 +1,5 @@
 body{
   font-family: 'Lato';
-  font-family: 'Raleway';
   color: #333;
 }
 /* imgタグの自動調整 */
@@ -25,7 +24,6 @@ img {
   box-sizing: border-box;
   position: fixed;
   width: 100%;
-  height: 64px;
   z-index: 1;
 }
 .header-inner{
@@ -50,10 +48,13 @@ img {
 .contact_botton:hover{
   color: #333;
 }
+.main{
+  padding-top: 62px;
+}
 /* Theme css */
 .theme-inner{
   color: #74cfae;
-  padding: 304px 0px;
+  padding: 250px 0px;
 }
 .theme-title{
   font-size: 90px;
