@@ -216,7 +216,7 @@ img {
 .section_skill-images_box{
   align-items: center;
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
 
 .section_skill-image{
