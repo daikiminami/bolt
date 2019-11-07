@@ -205,7 +205,7 @@ img {
 
 .section_skill-inner{
   color: #f2f2f2;
-  padding: 70px 0px 100px 0px;
+  padding: 70px 0 100px;
 }
 
 .section_skill-title{
@@ -224,7 +224,7 @@ img {
 }
 
 .section_skill-image:first-child{
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .section_skill-text{
@@ -238,7 +238,7 @@ img {
 }
 
 .nav-inner{
-  padding: 200px 0px;
+  padding: 200px 0;
 }
 
 .sns_box{
@@ -265,7 +265,7 @@ img {
 }
 
 .footer-inner{
-  padding: 20px 0 25px 0;
+  padding: 20px 0 25px;
 }
 
 .footer-text{
@@ -301,7 +301,7 @@ img {
   .article-image{
     opacity: 0.7;
     transition: .3s;
-    margin: 0px;
+    margin: 0;
     width: 100%;
   }
 
@@ -415,7 +415,7 @@ img {
 
 /* theme.css */
   .theme-inner{
-    padding: 160px 0 130px 0;
+    padding: 160px 0 130px;
   }
 
   .theme-title{
